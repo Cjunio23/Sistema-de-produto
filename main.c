@@ -117,11 +117,11 @@ void OrdenaProduto(){//Funcao para ordena produto(5)
       }
      }
     }
-TodosOsProdutos();//Funçao para exibir todos os produtos.
+TodosOsProdutos();//FunÃ§ao para exibir todos os produtos.
 printf("\n-------------------------------------------------------------\n");
 }
 
- int menu(){//Menu de opcoes de funçoes do programa
+ int menu(){//Menu de opcoes de funÃ§oes do programa
     int opcao;
     printf("\n--------------------------------------------------------------------\n");
     printf("\t\t\t\t MENU \n");
@@ -148,7 +148,7 @@ int main()//Inicio do programa
         {
             case 0:
                 break;
-            case 1: // código para inserir
+            case 1: // cÃ³digo para inserir
                 if (n_produtos == max_produtos)//Caso ultrapasse o valor de 100 itens
                 {
                     printf("\n Cheio\n");
@@ -168,7 +168,7 @@ int main()//Inicio do programa
             case 5://codigo para ordenar um produto
                  OrdenaProduto();
                   break;
-            default://se a opçao escolhida nao existir imprimir essa mensagem
+            default://se a opÃ§ao escolhida nao existir imprimir essa mensagem
                 printf("----- OPCAO INVALIDA -----");
         }
     system("pause");
